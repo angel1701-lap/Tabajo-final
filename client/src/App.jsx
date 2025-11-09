@@ -1,10 +1,14 @@
-import React from 'react'
+import React from 'react';
+import Navbar from './components/Navbar';
+import Home from './components/Home';
+import Footer from './components/Footer';
 
 export default function App() {
   return (
-    <div style={{ fontFamily: 'sans-serif', padding: 16 }}>
-      <h1>Proyecto Zapatillas</h1>
-      <p>Frontend listo con Vite + React.</p>
-    </div>
-  )
+    <>
+      <Navbar />
+      <Home />
+      <Footer />
+    </>
+  );
 }
