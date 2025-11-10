@@ -78,7 +78,7 @@ function Prediccion() {
 
   return (
     <div className="container my-5">
-      <h2 className="text-center mb-4 fw-bold">📈 Predicción de Ventas Mensuales</h2>
+      <h2 className="text-center mb-4 fw-bold"> Predicción de Ventas Mensuales</h2>
 
       <div className="card p-4 shadow-sm">
         <div className="mb-3">
