@@ -9,7 +9,7 @@ function Navbar({ cartCount, onNavigate }) {
           href="#"
           onClick={() => onNavigate('home')}
         >
-           ZapaStore
+          ZapaStore
         </a>
 
         <div className="d-flex gap-2">
@@ -18,6 +18,13 @@ function Navbar({ cartCount, onNavigate }) {
             onClick={() => onNavigate('prediccion')}
           >
              Predicción
+          </button>
+
+          <button
+            className="btn btn-outline-light"
+            onClick={() => onNavigate('dashboard')}
+          >
+             Dashboard
           </button>
 
           <button
