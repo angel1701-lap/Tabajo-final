@@ -4,6 +4,8 @@ import Home from './components/Home';
 import Footer from './components/Footer';
 import Cart from './components/Cart';
 import Prediccion from './components/Prediccion';
+import Dashboard from './components/Dashboard';
+
 
 export default function App() {
   const [cart, setCart] = useState([]);
@@ -20,6 +22,7 @@ export default function App() {
       {page === 'home' && <Home onAddToCart={handleAddToCart} />}
       {page === 'cart' && <Cart cartItems={cart} onRemove={handleRemoveFromCart} />}
       {page === 'prediccion' && <Prediccion />}
+      {page === 'dashboard' && <Dashboard />}
 
       <Footer />
     </div>
